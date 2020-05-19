@@ -13,13 +13,13 @@ body > * {
 body nav {
   width: 120px;
 }
-body nav, body article {
+body nav, body main {
   height: calc(100vh - 194px);
   display: inline-block;
   vertical-align: top;
   overflow: scroll;
 }
-body article {
+body main {
   width: calc(100% - 224px);
   display: inline-block;
 }
