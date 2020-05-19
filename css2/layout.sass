@@ -1,0 +1,25 @@
+body
+  margin: 5px
+  background-color: hotpink
+
+nav, main
+  overflow: scroll
+
+.box
+  background-color: white
+  border-radius: 10px
+  padding: 20px
+  margin: 5px
+  box-shadow: 2px 2px #888
+  font-size: 14px
+
+.flex
+  display: flex
+  $header-height: 67px
+  height: calc(100vh - #{2 * $header-height})
+
+nav
+  flex: 1
+
+main
+  flex: 7
